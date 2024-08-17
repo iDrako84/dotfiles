@@ -6,7 +6,7 @@ file i3 config
 
 exec --no-startup-id picom
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh 
-exec_always --no-startup-id feh --bg-scale ~/Images/one-piece.png
+exec_always --no-startup-id feh --bg-scale ~/.config/backgrounds/one-piece.png
 bindsym $mod+space exec rofi -show combi
 exec --no-startup-id setxkbmap us -option compose:rctrl
 
