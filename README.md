@@ -9,10 +9,11 @@ exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id feh --bg-scale ~/.config/backgrounds/one-piece.png
 bindsym $mod+space exec rofi -show combi
 exec --no-startup-id setxkbmap us -option compose:rctrl
+exec --no-startup-id xautolock -time 15 -locker "i3lock -i ~/.config/backgrounds/lock.png"
 
 font pango:Meslo LGM Nerd 14
 
-gaps inner 3
+gaps inner 10
 
 # class                 border  bground text    indicator child_border
 client.focused          #282A2E #282A2E #FCAE1E #282A2E   #282A2E
