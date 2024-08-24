@@ -1,11 +1,11 @@
 * {
-    bg-col:  #282A2E;
-    bg-col-light: #282A2E;
-    border-col: #282A2E;
+    bg-col:  #2a1e1d;
+    bg-col-light: #2a1e1d;
+    border-col: #2a1e1d;
     selected-col: #282A2E;
-    orange: #FCAE1E;
+    orange: #CD7F32;
     fg-col: #ffffff;
-    fg-col2: #FCAE1E;
+    fg-col2: #CD7F32;
     white: #ffffff;
     width: 600;
     font: "JetBrainsMono Nerd Font 18";

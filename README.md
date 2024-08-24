@@ -6,17 +6,17 @@ file i3 config
 
 exec --no-startup-id picom
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh 
-exec_always --no-startup-id feh --bg-scale ~/.config/backgrounds/one-piece.png
+exec_always --no-startup-id feh --bg-scale ~/.config/backgrounds/background.png
 bindsym $mod+space exec rofi -show combi
 exec --no-startup-id setxkbmap us -option compose:rctrl
 exec --no-startup-id xautolock -time 15 -locker "i3lock -i ~/.config/backgrounds/lock.png"
 
 font pango:Meslo LGM Nerd 14
 
-gaps inner 10
+gaps inner 20
 
 # class                 border  bground text    indicator child_border
-client.focused          #282A2E #282A2E #FCAE1E #282A2E   #282A2E
+client.focused          #2A1E1D #2A1E1D #FCAE1E #2A1E1D   #2A1E1D
 client.focused_inactive #333333 #5F676A #FFFFFF #484E50   #5F676A
 client.unfocused        #333333 #222222 #888888 #292D2E   #222222
 client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
