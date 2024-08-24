@@ -1,3 +1,3 @@
-Install
+Install Fork picom
 
-picom-arian8j2-git
+https://github.com/jonaburg/picom
