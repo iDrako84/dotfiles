@@ -1,6 +1,6 @@
 DOTFILES
 
-Install ttf-nerd-fonts
+Install ttf-meslo-nerd
 
 file i3 config
 
