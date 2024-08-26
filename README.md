@@ -2,6 +2,8 @@ DOTFILES
 
 Install ttf-meslo-nerd
 
+setxkbmap -layout us,it
+
 file i3 config
 
 exec --no-startup-id picom
