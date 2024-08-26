@@ -1,6 +1,6 @@
 DOTFILES
 
-Install ttf-meslo-nerd
+Install ttf-meslo-nerd playerctl
 
 setxkbmap -layout us,it
 
