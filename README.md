@@ -2,11 +2,16 @@ DOTFILES
 
 Install ttf-meslo-nerd playerctl
 
-setxkbmap -layout us,it
-
 file i3 config
 
 exec --no-startup-id picom
+exec --no-startup-id kDrive
+exec --no-startup-id flameshot &
+exec --no-startup-id setxkbmap -layout us,it
+bindsym $mod+Shift+Print exec flameshot screen -p ~/Screenshots
+bindsym $mod+Shift+Home exec flameshot screen -p ~/Screenshots
+bindsym $mod+Print exec flameshot gui
+bindsym $mod+Home exec flameshot gui
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh 
 exec_always --no-startup-id feh --bg-scale ~/.config/backgrounds/background.png
 bindsym $mod+space exec rofi -show combi
