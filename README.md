@@ -7,7 +7,7 @@ file i3 config
 exec --no-startup-id picom
 exec --no-startup-id kDrive
 exec --no-startup-id flameshot &
-exec --no-startup-id setxkbmap -layout us,it
+exec --no-startup-id setxkbmap -layout us,it -option compose:rctrl
 bindsym $mod+Shift+Print exec flameshot screen -p ~/Screenshots
 bindsym $mod+Shift+Home exec flameshot screen -p ~/Screenshots
 bindsym $mod+Print exec flameshot gui
