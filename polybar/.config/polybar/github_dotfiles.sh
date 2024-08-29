@@ -3,7 +3,7 @@
 cd ~/dotfiles
 gitstatus=$(git status --porcelain=v1 2> /dev/null | wc -l)
 gitcommit=$(git rev-list --right-only --count origin/master..master 2> /dev/null)
-repository="dotfiles:"
+repository="%{F#CD7F32}dotfiles%{F-}:"
 
 if [ "$gitstatus" != 0 ] || [ "$gitcommit" != 0 ]; then
 	if [ "$gitstatus" != 0 ]; then
