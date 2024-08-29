@@ -30,3 +30,5 @@ client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
 client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
 client.background       #FFFFFF
+
+for_window [class=".*"] title_format " %title"
