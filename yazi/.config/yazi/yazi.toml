@@ -53,9 +53,14 @@ play = [
 	{ run = 'mpv --force-window %*', orphan = true, for = "windows" },
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
+pdf = [	
+	{ run = 'evince "$@"', orphan = true, for = "linux" }
+]
 
 [open]
 rules = [
+	# Pdf
+	{ name = "*.pdf", use = "pdf" },
 	# Folder
 	{ name = "*/", use = [ "edit", "open", "reveal" ] },
 	# Text
@@ -73,7 +78,7 @@ rules = [
 	# Empty file
 	{ mime = "inode/x-empty", use = [ "edit", "reveal" ] },
 	# Fallback
-	{ name = "*", use = [ "open", "reveal" ] },
+	{ name = "*", use = [ "open", "reveal" ] }
 ]
 
 [tasks]
