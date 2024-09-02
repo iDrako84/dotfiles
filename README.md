@@ -23,7 +23,7 @@ font pango:Meslo LGM Nerd 14
 gaps inner 20
 
 # class                 border  bground text    indicator child_border
-client.focused          #2A1E1D #2A1E1D #FCAE1E #2A1E1D   #2A1E1D
+client.focused          #1e293b #1e293b #FFFFFF #1e293b   #1e293b
 client.focused_inactive #333333 #5F676A #FFFFFF #484E50   #5F676A
 client.unfocused        #333333 #222222 #888888 #292D2E   #222222
 client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
