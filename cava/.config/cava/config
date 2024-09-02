@@ -282,10 +282,10 @@
 [color]
 gradient = 1
 gradient_color_1 = '#FFFFFF'
-gradient_color_2 = '#CD7F32'
-gradient_color_3 = '#CD7F32'
-gradient_color_4 = '#CD7F32'
-gradient_color_5 = '#CD7F32'
-gradient_color_6 = '#CD7F32'
-gradient_color_7 = '#CD7F32'
+gradient_color_2 = '#FFFFFF'
+gradient_color_3 = '#FFFFFF'
+gradient_color_4 = '#FFFFFF'
+gradient_color_5 = '#FFFFFF'
+gradient_color_6 = '#FFFFFF'
+gradient_color_7 = '#FFFFFF'
 gradient_color_8 = '#FF0000'

@@ -8,7 +8,7 @@ if [[ $playerctlstatus ==  "" ]]; then
 elif [[ $playerctlstatus =~ "Stopped" ]]; then
     echo ""
 elif [[ $playerctlstatus =~ "Playing" ]]; then
-    echo "%{A1:playerctl pause:}%{F#CD7F32}󰏤%{F-}%{A} ${playerctlname}"
+    echo "%{A1:playerctl pause:}󰏤%{A} ${playerctlname}"
 else
-    echo "%{A1:playerctl play:}%{F#CD7F32}󰐊%{F-}%{A} ${playerctlname}"
+    echo "%{A1:playerctl play:}󰐊%{A} ${playerctlname}"
 fi
