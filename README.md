@@ -1,6 +1,6 @@
 DOTFILES
 
-Install ttf-meslo-nerd playerctl redshift
+Install stow ttf-meslo-nerd playerctl redshift flameshot
 
 file i3 config
 
