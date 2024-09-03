@@ -1,6 +1,6 @@
 DOTFILES
 
-Install stow ttf-meslo-nerd playerctl redshift flameshot
+Install stow ttf-meslo-nerd playerctl redshift flameshot dolphin
 
 file i3 config
 
@@ -12,6 +12,7 @@ bindsym $mod+Shift+Print exec flameshot screen -p ~/Screenshots
 bindsym $mod+Shift+Home exec flameshot screen -p ~/Screenshots
 bindsym $mod+Print exec flameshot gui
 bindsym $mod+Home exec flameshot gui
+bindsym $mod+Shift+f exec dolphin
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh 
 exec_always --no-startup-id feh --bg-scale ~/.config/backgrounds/background.png
 bindsym $mod+space exec rofi -show combi
