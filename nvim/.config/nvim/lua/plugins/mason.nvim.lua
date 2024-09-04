@@ -6,4 +6,8 @@ return {
       table.insert(opts.ensure_installed, "js-debug-adapter")
     end,
   },
+  {
+    "williamboman/mason.nvim",
+    opts = { ensure_installed = { "prettier" } },
+  },
 }
