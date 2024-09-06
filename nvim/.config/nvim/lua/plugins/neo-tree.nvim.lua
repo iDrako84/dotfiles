@@ -57,6 +57,15 @@ return {
       })
     end,
     opts = {
+      view = {
+        relativenumber = true,
+      },
+      event_handlers = {
+        event = "neo_tree_buffer_enter",
+        handler = function()
+          vim.opt_local.relativenumber = true
+        end,
+      },
       sources = { "filesystem", "buffers", "git_status" },
       open_files_do_not_replace_types = { "terminal", "Trouble", "trouble", "qf", "Outline" },
       filesystem = {
