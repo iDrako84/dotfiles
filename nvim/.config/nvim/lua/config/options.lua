@@ -20,4 +20,7 @@ vim.g.clipboard = {
 }
 
 vim.opt.wrap = false -- Disable line wrap
+vim.cmd("set textwidth=120")
+vim.cmd("set wrapmargin=0")
+vim.g.lazyvim_prettier_needs_config = false
 vim.opt.relativenumber = false
