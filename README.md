@@ -1,6 +1,8 @@
 DOTFILES
 
-Install stow ttf-meslo-nerd playerctl redshift flameshot dolphin xsel
+Install yay
+
+Install stow ttf-meslo-nerd playerctl redshift flameshot dolphin xsel noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra kdrive-bin picom feh
 
 file i3 config
 
@@ -21,20 +23,6 @@ exec --no-startup-id xautolock -time 15 -locker "i3lock -i ~/.config/backgrounds
 
 font pango:Meslo LGM Nerd 14
 
-gaps inner 20
-
-# class border bground text indicator child_border
-
-client.focused #1e293b #1e293b #FFFFFF #1e293b #1e293b
-client.focused_inactive #333333 #5F676A #FFFFFF #484E50 #5F676A
-client.unfocused #333333 #222222 #888888 #292D2E #222222
-client.urgent #2F343A #900000 #FFFFFF #900000 #900000
-client.placeholder #000000 #0C0C0C #FFFFFF #000000 #0C0C0C
-
-client.background #FFFFFF
-
-for_window [class=".*"] title_format " %title"
-
 set $mode_power [l]ock | [Shift+l]ogoff | [r]eboot | [s]hutdown
 mode "$mode_power" {
 bindsym l exec i3lock -i ~/.config/backgrounds/lock.png; mode "default"
@@ -45,30 +33,6 @@ bindsym Return mode "default"
 bindsym Escape mode "default"
 }
 bindsym $mod+x mode "$mode_power"
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-
-# finds out, if available)
-
-# bar {
-
-# status_command i3status
-
-# }
-
-gaps inner 20
-
-# class border bground text indicator child_border
-
-client.focused #1e293b #1e293b #FFFFFF #1e293b #1e293b
-client.focused_inactive #333333 #5F676A #FFFFFF #484E50 #5F676A
-client.unfocused #333333 #222222 #888888 #292D2E #222222
-client.urgent #2F343A #900000 #FFFFFF #900000 #900000
-client.placeholder #000000 #0C0C0C #FFFFFF #000000 #0C0C0C
-
-client.background #FFFFFF
-
-for_window [class=".*"] title_format " %title"
 
 # redshift modes
 
@@ -85,3 +49,17 @@ bindsym 4 exec --no-startup-id "$kill_redshift redshift -P -O 4000", mode "defau
 bindsym Return mode "default"
 bindsym Escape mode "default"
 }
+
+gaps inner 20
+
+# class border bground text indicator child_border
+
+client.focused #1e293b #1e293b #FFFFFF #1e293b #1e293b
+client.focused_inactive #333333 #5F676A #FFFFFF #484E50 #5F676A
+client.unfocused #333333 #222222 #888888 #292D2E #222222
+client.urgent #2F343A #900000 #FFFFFF #900000 #900000
+client.placeholder #000000 #0C0C0C #FFFFFF #000000 #0C0C0C
+
+client.background #FFFFFF
+
+for_window [class=".*"] title_format " %title"
