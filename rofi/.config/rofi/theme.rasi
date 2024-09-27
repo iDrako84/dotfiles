@@ -5,7 +5,7 @@
     selected-col: #020617;
     fg-col: #ffffff;
     white: #ffffff;
-    width: 600;
+    width:90%;
     font: "JetBrainsMono Nerd Font 18";
 }
 
@@ -15,7 +15,7 @@ element-text, element-icon , mode-switcher {
 }
 
 window {
-    height: 360px;
+    height: 50%;
     border: 3px;
     border-color: @border-col;
     background-color: @bg-col;
@@ -56,7 +56,7 @@ listview {
     border: 0px 0px 0px;
     padding: 6px 0px 0px;
     margin: 10px 0px 0px 20px;
-    columns: 2;
+    columns: 1;
     lines: 5;
     background-color: @bg-col;
 }
