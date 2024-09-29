@@ -23,6 +23,8 @@ exec --no-startup-id xautolock -time 15 -locker "i3lock -i ~/.config/backgrounds
 
 font pango:Meslo LGM Nerd 14
 
+# Power
+
 set $mode_power [l]ock | [Shift+l]ogoff | [r]eboot | [s]hutdown
 mode "$mode_power" {
 bindsym l exec i3lock -i ~/.config/backgrounds/lock.png; mode "default"
